@@ -1,0 +1,18 @@
+@import url("https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css");
+@import url("https://raw.githubusercontent.com/yiruzu/vencord-snippets/refs/heads/main/snippets/BubbleUsernames/import.css");
+
+/* Disable Nameplates */
+[class*="nameplated"] > [class*="container"] {
+    display: none;
+}
+
+/* Disable Activity in Memberlist */
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
+
+/* Disable Clantag */
+[class*=clanTagChiplet__], [class*=chipletContainerInner_], [class*=chipletContainerInline_] {
+  display: none;
+}
